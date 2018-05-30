@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CryptoNotifier</string>
+    <string name="APIRequest">
+        {
+            \"BTCTurk\": {
+                \"BasePath\": \"http://www.btcturk.com/api/\",
+                \"ApiKey\": \"\",
+                \"ApiSecret\": \"\",
+                \"PlatformCurrency\": \"try\",
+                \"IsGlobalPlatform\": false,
+                \"IsLocalPlatform\": true
+            },
+            \"Bitfinex\": {
+                \"BasePath\": \"https://api.bitfinex.com\",
+                \"ApiKey\": \"\",
+                \"ApiSecret\": \"\",
+                \"PlatformCurrency\": \"usd\",
+                \"IsGlobalPlatform\": true,
+                \"IsLocalPlatform\": false
+            }
+        }
+    </string>
+    <string name="Btn_List">Getir</string>
+    <string name="Btn_Refresh">Yenile</string>
+    <string name="Btn_Cancel">İptal</string>
+</resources>
